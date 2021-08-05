@@ -1,0 +1,75 @@
+#top_container {
+  height: 40px;
+  width : 400px;
+  background-color:#5199BA;
+  margin : 0 auto;
+  padding-top: 10px;
+  color : #EAEAEA;
+  font-weight : bold;
+  text-align: center;
+}
+#middle_container {
+  border : none;
+  width : 400px;
+  height : 300px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin: 0 auto;
+  background-color : #E8EDF1;
+}
+#bottom_container {
+  height: 40px;
+  width : 400px;
+  background-color:#5199BA;
+  margin : 0 auto;
+}
+a {
+  text-decoration: none;
+  color : black;
+}
+.notice_table {
+  margin : 0 auto;
+}
+.notice_table_column_tr {
+  background-color: #85C9DE
+}
+.notice_table_column_number {
+  text-align: center;
+  width : 25px;
+  font-size : 12px;
+  color : #EAEAEA;
+  font-weight : bold;
+}
+.notice_table_column_title {
+  text-align: center;
+  width : 170px;
+  font-size : 12px;
+  color : #EAEAEA;
+  font-weight : bold;
+}
+.notice_table_column_writer {
+  text-align: center;
+  width : 45px;
+  font-size : 12px;
+  color : #EAEAEA;
+  font-weight : bold;
+}
+.notice_table_column_date {
+  text-align: center;
+  width : 70px;
+  font-size : 12px;
+  color : #EAEAEA;
+  font-weight : bold;
+}
+.notice_table_column_hit {
+  text-align: center;
+  width : 40px;
+  font-size : 12px;
+  color : #EAEAEA;
+  font-weight : bold;
+}
+.notice_table_cell{
+  text-align: center;
+  font-size : 12px;
+  background-color: #F6F6F6;
+}

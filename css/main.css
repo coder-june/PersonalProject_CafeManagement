@@ -1,0 +1,153 @@
+/* top */
+#main_top_search_container {
+  width : 450px;
+  height : 50px;
+  margin : 0 auto;
+  background-color:#5199BA;
+  text-align: center;
+  padding-top: 7px;
+}
+.main_top_search_number {
+  text-align: center;
+  border: none;
+  font-size: 9pt;
+  width : 225px;
+  height: 25px;
+  background: #E8EDF1;
+}
+.main_top_search_array_td{
+  padding-bottom:6px
+}
+/* middle */
+#main_middle_result_container {
+  width : 450px;
+  height : 440px;
+  margin : 0 auto;
+  background-color : #E8EDF1;
+}
+.main_middle_title {
+  color: #EAEAEA;
+  font-size : 13px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #85C9DE;
+  text-align: center;
+}
+/* 1st table */
+.main_middle_tables{
+  margin : 0 auto;
+}
+.main_1st_table_column_tr{
+  background-color: #85C9DE
+}
+.main_1st_table_column_td {
+  text-align: center;
+  width : 90px;
+  font-size : 12px;
+  color : #EAEAEA;
+  font-weight : bold;
+}
+.main_1st_table_column_checkbox_td {
+  text-align: center;
+}
+.main_1st_table_cell_td{
+  text-align: center;
+  font-size : 12px;
+}
+.main_1st_table_cell_checkbox_td {
+  text-align: center;
+}
+.main_1st_table_cell_odd_tr{
+  background-color: #F6F6F6;
+}
+.main_1st_table_cell_even_tr{
+  background-color: #85C9DE;
+}
+/* 2nd table  */
+.main_2nd_table_column_1 {
+  text-align: center;
+  font-size : 12px;
+  color : #EAEAEA;
+  font-weight : bold;
+  background-color: #85C9DE;
+  width : 90px;
+}
+.main_2nd_table_column_2 {
+  text-align: center;
+  font-size : 12px;
+  color : #EAEAEA;
+  font-weight : bold;
+  background-color: #85C9DE;
+  width : 90px;
+  height : 100px;
+}
+.main_2nd_table_cell_1 {
+  text-align:center;
+  background-color : #F6F6F6;
+  border:none;
+  font-size : 12px;
+  width : 80px;
+}
+.main_2nd_table_cell_2 {
+  text-align:center;
+  background-color : #F6F6F6;
+  border:none;
+  font-size : 12px;
+  width : 30px;
+}
+.main_2nd_table_cell_colspan {
+  text-align:center;
+  background-color : #F6F6F6;
+  border:none;
+  font-size : 12px;
+}
+.main_2nd_table_textarea {
+   height : 90px;
+   width : 270px;
+   background-color : #F6F6F6;
+   border: none;
+}
+.main_2nd_table_textarea_cell {
+  text-align:center;
+  background-color : #F6F6F6;
+}
+.main_2nd_table_stamp_coupon_control_cell {
+  width:10px;
+  background-color : #F6F6F6;
+  font-weight : bold;
+  color : red;
+  font-size : 12px;
+  text-align:center;
+}
+.main_2nd_table_stamp_coupon_control_input {
+  width:13px;
+  background-color : #F6F6F6;
+  font-weight : bold;
+  color : red;
+  font-size : 12px;
+  text-align:center;
+  border : none;
+}
+/* bottom */
+#main_bottom_container {
+  width : 450px;
+  height : 50px;
+  margin : 0 auto;
+  background-color:#5199BA;
+  text-align: center;
+}
+/* etc */
+.checkone{
+  border : 1px solid #5199BA;
+}
+.button_search_square{
+  border-color:  rgba( 0, 0, 0, 0 );
+  background-color : rgba( 0, 0, 0, 0 );
+  padding: 0px;
+  border : none;
+}
+.plus_minus_botton {
+  border : 1px solid #85C9DE;
+  width: 60px;
+  border-radius:10px;
+}

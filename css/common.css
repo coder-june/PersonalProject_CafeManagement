@@ -1,0 +1,14 @@
+.common_array_table {
+  margin : 0 auto;
+}
+.common_img_button {
+  border-color:  rgba( 0, 0, 0, 0 );
+  background-color : rgba( 0, 0, 0, 0 );
+  padding-bottom:6px
+}
+.common_space {
+  height : 5px;
+}
+.common_space2 {
+  height : 15px;
+}

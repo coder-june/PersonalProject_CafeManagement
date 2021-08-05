@@ -1,0 +1,35 @@
+#page_join_container {
+  border : none;
+  width : 400px;
+  height : 110px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin: 0 auto;
+  background-color : #E8EDF1;
+}
+.page_join_text{
+  width : 240px;
+  border : none;
+}
+.page_join_submit{
+  text-align: center;
+  padding-top : 10px;
+}
+.page_join_table{
+  margin : 0 auto;
+}
+.page_join_table_colum{
+  background-color: #85C9DE;
+  font-size: 12px;
+  color : #EAEAEA;
+  font-weight: bold;
+}
+.page_join_table_cell {
+  background-color: #F6F6F6;
+}
+.page_join_top_bottom_line {
+  height: 10px;
+  width : 400px;
+  background-color:#5199BA;
+  margin : 0 auto;
+}
