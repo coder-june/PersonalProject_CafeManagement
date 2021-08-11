@@ -1,3 +1,5 @@
+1. DB 모델링 
+
 CREATE DATABASE cafe;
 
 CREATE TABLE Info(
@@ -28,6 +30,10 @@ $sql_search = "SELECT * FROM info WHERE number=' ".$_POST['search']." ' " ;
 
 document.getElementsByName(이름) 은 object 의 name 을 통해 인식한다.
 
+////////////////////////////////////////////////////////////////////////////////
+
+2. 개인 메모
+
 id나 name을 이용해서 value 값을 가져오는 건데,
 차이점이라면 getElementById(아이디)로 가져오면 단일값을 가져오고 getElementsByName(이름)은 해당 이름으로 된 객체를 모두 배열로 받아올 수 있다는 점이다.
 
@@ -39,7 +45,6 @@ ID를 가져오는 함수인 getElementById 와 다르게, name은 중복될 수
     alert(obj[0].value);
 
 table - form - tr 로 코딩시 innerHTML로 넣은 폼 값은 Chrome에서는 전송되지 않는다.
-/////////////////////////////////////////
 
 this.form을 보내고 자바스크립트 함수로 파라미터 받기
 <script language="JavaScript"> <!-- function test(this_form) { //아래의 호출한 이벤트핸들러를 통해 폼의 이름을 그대로 받아서 쓰게되죠. alert(this_form.text_field.value); } //--> </script> </head>
@@ -52,21 +57,9 @@ calc.result_minus.value = calc.left.value - calc.right.value;
 연산자는 문자열을 합치는데에도 쓰이기 때문에 수로 변환해주는 Number(string)이 필요하다
 calc.result_plus.value = Number(calc.left.value) + Number(calc.right.value);
 
-
-//////////////////
 위와 같은 input 개체가 있을 때,
 글 쓰지 못하게 막는 방법 중, 대표적으로 readonly 와 disabled 가 있다.
 이 둘 모두 input 타입의 속성이다.
 따라서 다음과 같이 사용할 수 있다. disabled는 form으로 못넘김 !!
 
-
-////////////////////////////////////////
-
 process_join if문에 문제가 있을 떄 실행되는 부분이 잘 아됨 이부분 확인할 것
-
-
-
-
-<td style="width:28px; background-color : #F6F6F6; font-weight : bold; color : red; font-size : 12px; text-align:center;">
-  + 3
-</td>
